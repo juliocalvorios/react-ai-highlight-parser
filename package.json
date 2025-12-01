@@ -1,6 +1,6 @@
 {
   "name": "react-ai-highlight-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse and render AI streaming responses with semantic highlighting. Supports multiple modes (highlights, underline, both) and color palettes.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
