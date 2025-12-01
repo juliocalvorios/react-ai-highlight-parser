@@ -9,7 +9,9 @@ A parser for rendering AI responses with semantic highlighting. Built this becau
 
 Takes AI responses with highlight codes like `[Y]important[/Y]` and renders them with colors. Three modes: background highlights, underlines, or both. Two color palettes included.
 
-Handles messy AI outputs gracefully. Protects code blocks, cleans up orphaned tags, works fine with streaming responses.
+✅ Works with streaming responses
+✅ Protects code blocks
+✅ Cleans up broken or incomplete tags
 
 ## Demo
 
