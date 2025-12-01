@@ -14,17 +14,13 @@
   },
   "keywords": [
     "react",
-    "ai",
     "highlight",
     "parser",
-    "streaming",
-    "llm",
-    "chatgpt",
-    "claude",
-    "semantic",
-    "syntax-highlighting",
-    "openai",
-    "groq"
+    "semantic-highlighting",
+    "text-styling",
+    "ai-response",
+    "underline",
+    "markdown"
   ],
   "author": "Julio Calvo <juliocalvorios@gmail.com>",
   "license": "MIT",
@@ -45,6 +41,7 @@
     "@types/react-dom": "^18.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tinyexec": "^1.0.2",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   }

@@ -1,18 +1,15 @@
 # react-ai-highlight-parser
 
-Parse and render AI streaming responses with semantic highlighting.
+A parser for rendering AI responses with semantic highlighting. Built this because I needed a way to make AI outputs more readable in my projects.
 
 ![npm](https://img.shields.io/npm/v/react-ai-highlight-parser)
 ![license](https://img.shields.io/npm/l/react-ai-highlight-parser)
 
-## Features
+## What it does
 
-- 🎨 **Multiple highlight modes** — backgrounds, underlines, or both
-- 🌈 **Color palettes** — vibrant or natural earth tones
-- ⚡ **Works with streaming** — handles partial responses gracefully
-- 🛡️ **Code block protection** — syntax highlighting isn't affected
-- 🧹 **Auto-cleanup** — removes orphaned and invalid tags
-- 📦 **Tiny bundle** — no dependencies except React
+Takes AI responses with highlight codes like `[Y]important[/Y]` and renders them with colors. Three modes: background highlights, underlines, or both. Two color palettes included.
+
+Handles messy AI outputs gracefully. Protects code blocks, cleans up orphaned tags, works fine with streaming responses.
 
 ## Demo
 
@@ -174,7 +171,3 @@ Use sparingly for clarity. Don't highlight entire paragraphs.
 ## License
 
 MIT © [Julio Calvo](https://juliocalvo.dev)
-
----
-
-Built for [veraOS](https://veraos.ai) — an AI-powered productivity platform.
